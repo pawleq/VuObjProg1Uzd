@@ -9,11 +9,17 @@ using namespace std;
 
 int main()
 {
-    string pasisveikinimas = " Sveikas, ";
+    string pasisveikinimas;
     string vardas;
     string rem1, rem2, rem3, rem4, rem5;
     cout << "Iveskite varda: ";
     cin >> vardas;
+    int ilg = vardas.length();
+    if (vardas[ilg-1]=='a')
+    {
+        pasisveikinimas = " Sveika, ";
+    }
+        else pasisveikinimas = " Sveikas, ";
     pasisveikinimas += vardas+"!";
 ///////////////////////////////////////////////////
     rem1 = ""; rem2 = "*"; rem3 = "*"; rem4 = "*"; rem5 = "";
