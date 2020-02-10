@@ -23,7 +23,9 @@ Releases
 v1.0 (Final release).
 Pridėta pasirinktinas rėmelio dydis;
 Panaikinti rėmelio kintamieji.
+
 v0.2 (Second subrelease).
 Pataisytas pasisveikinimas, pridėta lyties atpažinimas.
+
 v0.1 (First subrelease).
 Pradinė programa, kuri atspausdina pasisveikinimą 5 eilučių dydžio lentelėje.
