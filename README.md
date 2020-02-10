@@ -20,6 +20,7 @@ Kaip naudoti programą?
 3. Jūsų nuosava pasisveikinimo kortelė!
 
 Releases
+
 v1.0 (Final release).
 Pridėta pasirinktinas rėmelio dydis;
 Panaikinti rėmelio kintamieji.
