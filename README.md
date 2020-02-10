@@ -1,4 +1,4 @@
 # VuObjProg1Uzd
 Objektinio programavimo užduotis
 
-labas
+Paulius Mykolaitis ISI I grupė II progrupis.
