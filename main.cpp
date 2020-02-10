@@ -6,32 +6,44 @@
 #include <locale>
 #include <math.h>
 using namespace std;
-
-int main()
+struct Objektas
 {
-    string pasisveikinimas = " Sveikas, ";
+    string pasisveikinimas;
     string vardas;
-    string rem1, rem2, rem3, rem4, rem5;
+    int plot;
+    void nusk()
+    {
     cout << "Iveskite varda: ";
     cin >> vardas;
+    cout << "Iveskite lentele ploti : ";
+    cin >> plot;
+    int ilg = vardas.length();
+    if (vardas[ilg-1]=='a')
+    {
+        pasisveikinimas = " Sveika, ";
+    }
+        else pasisveikinimas = " Sveikas, ";
     pasisveikinimas += vardas+"!";
 ///////////////////////////////////////////////////
-    rem1 = ""; rem2 = "*"; rem3 = "*"; rem4 = "*"; rem5 = "";
-    for (int i = 0; i < pasisveikinimas.length()+3; i++, rem1 += "*", rem5 += "*")
-    {
-        if ( i == pasisveikinimas.length())
-        {
-            rem2 += " *"; //antros eilutes galas
-            rem4 += " *"; //ketvirtos eilutes galas
-        }
-        else
-        {
-            rem2 += " "; //jeigu eilutes tai ne galas, dedami tarpai 2-oj ir 4-oj eilutej
-            rem4 += " ";
+    for (int i = 0; i < pasisveikinimas.length() + 3 ; i++) cout <<"*";
+    cout << endl;
+    for (int i = 0; i < plot; i++) {
+        if (i == plot / 2)
+            cout << "*" + pasisveikinimas + " *" << endl;
+        else {
+            cout << "*";
+            for (int j = 0; j < pasisveikinimas.length(); j++) cout <<" ";
+            cout << " *" << endl;
         }
     }
-    rem3 += pasisveikinimas + " *";
-    cout << rem1 << endl; cout << rem2 << endl; cout << rem3 << endl; cout << rem4 << endl; cout << rem5 << endl;
+    for (int i = 0; i < pasisveikinimas.length() + 3; i++) cout <<"*";
+    cout << endl;
+}
+};
+int main()
+{
+    Objektas V1;
+    V1.nusk();
     return 0;
 }
 
