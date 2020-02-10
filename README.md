@@ -25,7 +25,7 @@ Pridėta pasirinktinas rėmelio dydis; Panaikinti rėmelio kintamieji.
 
 v0.2 (Second subrelease). 
 
-Pataisytas pasisveikinimas, pridėta lyties atpažinimas.
+Pataisytas pasisveikinimas, pridėtas lyties atpažinimas.
 
 v0.1 (First subrelease).
 
