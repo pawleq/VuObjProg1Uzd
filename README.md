@@ -1,7 +1,7 @@
 # Kaip paleisti programą?
 Jeigu naudojate CodeBlocks, sekite šiuos žingsnius :
 
-1. Atidarome .cpp failą.
+1. Atidarome ***.cpp*** failą.
 2. Sukompiliuojame kodą ir paleidžiame programą.
 
 Jeigu naudojate C++ compiler, pavyzdziui, GCC, tai :
