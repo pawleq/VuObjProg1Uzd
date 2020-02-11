@@ -15,11 +15,11 @@ int main()
     cout << "Iveskite varda: ";
     cin >> vardas;
     int ilg = vardas.length();
-    if (vardas[ilg-1]=='a')
+    if (vardas[ilg-1]=='s' ||  vardas[ilg-1]=='r')
     {
-        pasisveikinimas = " Sveika, ";
+        pasisveikinimas = " Sveikas, ";
     }
-        else pasisveikinimas = " Sveikas, ";
+        else pasisveikinimas = " Sveika, ";
     pasisveikinimas += vardas+"!";
 ///////////////////////////////////////////////////
     rem1 = ""; rem2 = "*"; rem3 = "*"; rem4 = "*"; rem5 = "";
